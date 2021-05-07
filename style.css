@@ -2,22 +2,69 @@
   --theme-green: #00bf8f;
   --theme-white: #dbdbdb;
   --theme-gray: gray;
-  --theme-light-gray: #a8a7a7; 
+  --theme-light-gray: #a8a7a7;
 }
 .bg-img{
-  background: url(https://i.ytimg.com/vi/F-X4SLhorvw/maxresdefault.jpg);
+  background: url(https://happymag.tv/wp-content/uploads/2020/01/Webp.net-resizeimage-4.jpg);
   padding-top: 3vh;
   padding-bottom: 6vh;
-  width: 1086vw0vw;
-  object-fit: cover;
-}
+  background-position: top;  
+  background-repeat: no-repeat;
+  background-size: cover;}
 .btn-clrs{
   color: var(--theme-green);
-  outline: solid .5rem  var(--theme-green);
+  outline: solid .25rem  var(--theme-green);
 }
 .text-theme-grey{
   color: var(--theme-gray);
 }
 .input-height{
   height: 15vh;
+}
+.bg-green{
+  background-color: var(--theme-green);
+}
+.theme-light-gray{
+  background-color: var(--theme-light-gray);
+}
+.text-gray{
+  color: var(--theme-gray);
+}
+.theme-green{
+  color: var(--theme-green);
+}
+.text-black{
+  color: #080110;
+}
+.text-light-grey{
+  color: var(--theme-light-gray);
+}
+.icon-size{
+  font-size: xx-large;
+}
+.spillage{
+  transform: translateY(45px);
+  box-shadow: 5px 5px 5px var(--theme-light-gray);
+}
+.card-height{
+  height: 18rem;
+  padding-top: 2rem;
+}
+.fix-picture{
+  object-fit: fill;
+}
+.bg-mg{
+  padding: .5rem;
+  height: 5rem;
+  background-color: bla#a5a5a5;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Oswald', sans-serif;
+}
+div{
+  font-family: 'Open Sans', sans-serif;
 }
