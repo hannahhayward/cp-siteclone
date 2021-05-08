@@ -13,7 +13,7 @@
   background-size: cover;}
 .btn-clrs{
   color: var(--theme-green);
-  outline: solid .25rem  var(--theme-green);
+  outline: solid .15rem  var(--theme-green);
 }
 .text-theme-grey{
   color: var(--theme-gray);
@@ -67,4 +67,9 @@ h5 {
 }
 div{
   font-family: 'Open Sans', sans-serif;
+}
+@media screen and (max-width: 900px) {
+  div.gone {
+    display: none;
+  }
 }
