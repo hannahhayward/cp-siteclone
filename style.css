@@ -46,10 +46,6 @@
   transform: translateY(45px);
   box-shadow: 5px 5px 5px var(--theme-light-gray);
 }
-.card-height{
-  height: 18rem;
-  padding-top: 2rem;
-}
 .fix-picture{
   object-fit: fill;
 }
@@ -68,7 +64,7 @@ h5 {
 div{
   font-family: 'Open Sans', sans-serif;
 }
-@media screen and (max-width: 900px) {
+@media (min-width: 576px) {
   div.gone {
     display: none;
   }
