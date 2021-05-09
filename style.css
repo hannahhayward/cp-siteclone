@@ -1,7 +1,5 @@
 :root{
   --theme-green: #00bf8f;
-  --theme-white: #dbdbdb;
-  --theme-gray: gray;
   --theme-light-gray: #a8a7a7;
 }
 .bg-img{
@@ -15,29 +13,17 @@
   color: var(--theme-green);
   outline: solid .15rem  var(--theme-green);
 }
-.text-theme-grey{
-  color: var(--theme-gray);
-}
-.input-height{
-  height: 15vh;
-}
 .bg-green{
   background-color: var(--theme-green);
 }
 .theme-light-gray{
   background-color: var(--theme-light-gray);
 }
-.text-gray{
-  color: var(--theme-gray);
-}
 .theme-green{
   color: var(--theme-green);
 }
-.text-black{
+.text-blck{
   color: #080110;
-}
-.text-light-grey{
-  color: var(--theme-light-gray);
 }
 .icon-size{
   font-size: xx-large;
@@ -46,13 +32,19 @@
   transform: translateY(45px);
   box-shadow: 5px 5px 5px var(--theme-light-gray);
 }
-.fix-picture{
-  object-fit: fill;
+.circle{
+  padding-left: .75rem;
+  margin-left: .15rem;
+  padding-right: .75rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
 }
 .bg-mg{
   padding: .5rem;
   height: 5rem;
-  background-color: bla#a5a5a5;
+  margin-right:6rem;
+  margin-top: 1rem;
+  background-color: var(--theme-green);
 }
 h1,
 h2,
